@@ -5,6 +5,8 @@ import Header from "@/Components/Header";
 import HeroSection from "@/Components/HeroSection";
 import Services from "@/Components/Services";
 import TeamSection from "@/Components/TeamSection";
+import 'leaflet/dist/leaflet.css';
+
 
 export default function Home() {
   return (
