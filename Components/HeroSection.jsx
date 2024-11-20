@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import { assets } from "@/Assets/assets";
+import 'leaflet/dist/leaflet.css';
+
 
 // Disable SSR for this component
 const HeroSection = () => {
