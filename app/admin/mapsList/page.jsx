@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 import MapTabelItems from '@/Components/AdminComponents/MapTabelItems';
 
 
-const page = () => {
+const Page = () => {
 
   const [maps, setMaps] = useState([]);
 
@@ -60,4 +60,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
